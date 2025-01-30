@@ -1,0 +1,127 @@
+body {
+  background-image: url("../images/home/chienChat1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.containerHome {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.mobile {
+  display: none;
+}
+h1 {
+  text-shadow: 2px 2px 3px #000000;
+  font-family: "Playfair Display", serif;
+  color: #7e351a;
+  font-weight: lighter;
+  font-size: 10rem;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #242121;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+a {
+  font-size: 1.5rem;
+  color: #000000;
+}
+.chat,
+.chien {
+  width: 8em;
+  height: 2em;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-top: 0.2em;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  box-shadow: 2px 3px 8px #000000;
+  -webkit-box-shadow: 2px 3px 8px #000000;
+  -moz-box-shadow: 2px 3px 8px #000000;
+}
+.chienChat {
+  display: none;
+  object-fit: contain;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 27vw;
+  height: auto;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url("../images/home/fond1.webp");
+  }
+  .chienChat {
+    display: block;
+    width: 80vw;
+  }
+  h1 {
+    font-size: 20vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  .chat,
+  .chien {
+    width: 6em;
+    height: 2em;
+  }
+  .containerHome {
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .chat,
+  .chien {
+    display: none;
+  }
+  h2 {
+    font-size: 2.5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 6vh;
+  }
+  .containerHome {
+    margin-left: 0;
+    text-align: center;
+    padding-top: 7%;
+  }
+  .mobile {
+    margin: 18px auto;
+    width: 12em;
+    height: 2.5em;
+    border-radius: 80px;
+    display: contents;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #7e351a;
+  }
+  .logoMaison {
+    width: 30px;
+    height: 21px;
+    object-fit: cover;
+  }
+  .logochien {
+    width: 41px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .logochat {
+    width: 33px;
+    height: 23px;
+    object-fit: cover;
+  }
+}
