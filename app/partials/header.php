@@ -7,6 +7,7 @@
     <meta name="keywords" content="âge animal, calcul âge, chat, chien, animal de compagnie">
     <meta name="author" content="Dallari nicolas">
     <meta name="robots" content="index, follow">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>

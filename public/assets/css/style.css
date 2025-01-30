@@ -6,3 +6,11 @@
     list-style: none;
     box-sizing: border-box;
 }
+body {
+    visibility: hidden; 
+    overflow: hidden; 
+}
+body.anim-ready {
+    visibility: visible; 
+    overflow: auto; 
+}
