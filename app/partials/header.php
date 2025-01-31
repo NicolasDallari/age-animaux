@@ -8,7 +8,20 @@
     <meta name="author" content="Dallari nicolas">
     <meta name="robots" content="index, follow">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<nav class="mobile">
+    <a  href="/">
+        <img class="logoMaison" src="assets/images/home/maison.webp" alt="logo maison"  >
+    </a>
+    <a href="/chien">
+        <img class="logochien" src="assets/images/home/logochien.png" alt="logo chien">
+    </a>
+    <a href="">
+        <img class="logochat" src="assets/images/home/chat.webp" alt="logo chat">
+    </a>
+</nav>
     
