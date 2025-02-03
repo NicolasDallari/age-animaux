@@ -158,9 +158,44 @@ ol,
 .reponse {
   color: white;
 }
+.chienSeul {   
+  display: none;
+}
+@media screen and (max-width: 1420px) {
+  body {
+    background-image: url("../images/home/fond1.webp");
+  }
+  .containerDog {
+    width: auto;
+    padding: 15px;
+    word-wrap: break-word; /* Permet la cassure des mots longs */
+    white-space: normal;
+  }
+  .containerQuestion {
+    width: auto;
+    max-width: 440px;
+    padding: 15px;
+    word-wrap: break-word; /* Permet la cassure des mots longs */
+    white-space: normal;
+  }
+  .chienSeul {
+    object-fit: contain;
+    position: fixed;     
+    bottom: 0px;          
+    right: 0px;  
+    display: block;
+    width: 40vh;
+  }
+}
+@media screen and (max-width: 1045px) {
+.chienSeul {
+  width: 30vw;
+}
+}
 @media screen and (max-width: 480px) {
   body {
     background-image: url("../images/home/fond1.webp");
+    
   }
   .chienSeul {
     object-fit: contain;
