@@ -7,7 +7,7 @@
     <h1 >Quel âge<br> a-t-il ?</h1>
     <h2>Calculez facilement l'âge de votre animal préféré</h2>
     <div class="chat">
-        <a href="">chat</a>
+        <a href="/chat">chat</a>
     </div>
     <div class="chien">
         <a href="/chien">chien</a>

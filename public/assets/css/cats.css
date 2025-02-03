@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/dogs/chien.webp");
+  background-image: url("../images/cats/chat.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,7 +11,7 @@ nav {
   justify-content: center;
   margin-top: 30px;
 }
-.navDog {
+.navCats {
   font-size: 1.7rem;
   margin-left: 20px;
   margin-right: 20px;
@@ -30,17 +30,29 @@ nav {
   -webkit-box-shadow: 2px 3px 8px #000000;
   -moz-box-shadow: 2px 3px 8px #000000;
 }
-.containerDog {
-  max-width: 800px;
-  width: 50%;
-  height: 100vh;
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 2000px;
+  margin: auto;
+}
+.containerCats {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
-  padding-top: 5%;
+  align-items: center;
+  max-width: 800px;
+  width: 50vw;
+  height: 100vh;
+  margin-top: 7%;
+  margin-right: 6%;
+}
+.containerQuestion {
+  width: 50vw;
+  max-width: 700px;
 }
 h1 {
   font-size: 3em;
+  padding-right: 20%;
 }
 h1,
 label {
@@ -49,20 +61,10 @@ label {
 label {
   font-size: 1.5rem;
 }
-.selectType,
 .selectAge {
-  padding-top: 20px;
-  padding-left: 75px;
+  margin-top: 20%;
 }
-.selectType {
-  padding-left: 75px;
-}
-.selectAge {
-  padding-left: 138px;
-}
-#type-chien,
-#age-chien {
-  width: 25%;
+#age-chat {
   height: 40px;
   font-size: 18px;
   padding: 8px;
@@ -86,6 +88,7 @@ button {
 }
 .button {
   margin-left: 35%;
+  margin-top: 15px;
 }
 .resultat {
   color: red;
@@ -93,17 +96,13 @@ button {
   padding-left: 80px;
   margin-top: 20px;
 }
-.note {
-  margin-top: 20px;
-  padding-left: 45px;
-}
-.containerQuestion {
-  width: 60%;
-  height: 240px;
+.containerSavaisTu {
+  width: auto;
+  height: auto;
   border-radius: 25px;
   background-color: #7e351a;
   margin-left: 5%;
-  margin-top: 20px;
+  margin-top: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -111,18 +110,42 @@ button {
 }
 h3 {
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: lighter;
 }
-.question {
-  padding-top: 10px;
+a,
+h1,
+label,
+button,
+h3,
+.question,
+ol,
+.ageChat,
+.reponse,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+a,
+button,
+h3,
+h2,
+.question,
+ol,
+.ageChat,
+.reponse {
+  color: white;
+}
+.ageChat {
   font-size: 1.3em;
 }
 ol {
   margin-left: 10px;
   margin-top: 5px;
 }
-.esperenceVie {
+li {
+  margin-top: 1%;
+}
+.question {
   padding-top: 10px;
   font-size: 1.3em;
 }
@@ -134,84 +157,56 @@ h2 {
   font-size: 2.5em;
   color: #7e351a;
   font-weight: lighter;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 40%;
+  padding-right: 20%;
 }
-a,
-h1,
-label,
-button,
-h3,
-.question,
-ol,
-.esperenceVie,
-.reponse,
-h2 {
-  font-family: "Playfair Display", serif;
-}
-a,
-button,
-h3,
-.question,
-ol,
-.esperenceVie,
-.reponse {
-  color: white;
-}
-.chienSeul {   
+.chatSeul {
   display: none;
 }
+
 @media screen and (max-width: 1420px) {
   body {
     background-image: url("../images/home/fond1.webp");
   }
-  .containerDog {
-    width: auto;
-    padding: 15px;
-    word-wrap: break-word; /* Permet la cassure des mots longs */
-    white-space: normal;
+  main {
+    flex-direction: column;
+  }
+  h1 {
+    padding-right: 0%;
+  }
+  .containerCats {
+    width: 100vw;
+    height: auto;
+    max-width: fit-content;
   }
   .containerQuestion {
-    width: auto;
-    max-width: 440px;
-    padding: 15px;
-    word-wrap: break-word; /* Permet la cassure des mots longs */
-    white-space: normal;
+    width: 100vw;
   }
-  .chienSeul {
-    object-fit: contain;
-    position: fixed;     
-    bottom: 0px;          
-    right: 0px;  
+  h2 {
+    padding-top: 15%;
+    padding-right: 0%;
+    padding-left: 10%;
+  }
+  .chatSeul {
     display: block;
-    width: 40vh;
+  }
+  .chatSeul {
+    object-fit: contain;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    width: 60vh;
   }
 }
-@media screen and (max-width: 1045px) {
-.chienSeul {
-  width: 30vw;
-}
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 480px) {
-  body {
-    background-image: url("../images/home/fond1.webp");
-  }
-  .chienSeul {
-    object-fit: contain;
-    position: fixed;     
-    bottom: 0px;          
-    right: 0px;  
-    display: block;
-    width: 18vh;
-  }
   nav {
     display: none;
-  }
-  .containerDog {
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-    padding-top: 0%;
   }
   h1 {
     font-size: 7vw;
@@ -219,41 +214,32 @@ ol,
     margin-top: 5%;
   }
   label {
-    font-size: 1em;
+    font-size: 1rem;
   }
-  .selectType {
-    padding-left: 20%;
-  }
-  .selectAge {
-    padding-left: 32%;
-  }
-  #type-chien,
-  #age-chien {
-    width: 29%;
+  #age-chat {
+    width: 43%;
     height: 28px;
     font-size: 12px;
     padding: 5px;
   }
-  .button {
-    margin-left: 40%;
+  main {
+    height: 100vh;
   }
   .resultat {
     font-size: 4vw;
-    padding-left: 10%;
+    padding-left: 5%;
   }
-  .note {
-    font-size: 2vh;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .containerQuestion {
-    width: 80%;
-    height: 160px;
-    margin: 20px auto;
-    padding: 10px;
+  .containerSavaisTu {
+    margin-top: 30px;
   }
   h3 {
     font-size: 1em;
+  }
+  .ageChat {
+    font-size: 0.8em;
+  }
+  .reponse {
+    font-size: 0.5em;
   }
   .question {
     font-size: 0.8em;
@@ -261,16 +247,7 @@ ol,
   li {
     font-size: 0.5em;
   }
-  .esperenceVie {
-    font-size: 0.8em;
-  }
-  .reponse {
-    font-size: 0.5em;
-  }
   h2 {
     display: none;
   }
-  .selectType, .selectAge {
-    padding-top: 5%;
-}
 }
