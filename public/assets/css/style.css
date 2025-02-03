@@ -14,3 +14,38 @@ body.anim-ready {
     visibility: visible; 
     overflow: auto; 
 }
+.mobile {
+    display: none;
+  }
+  @media screen and (max-width: 480px) {
+    .chat,
+    .chien {
+      display: none;
+    }
+    .mobile {
+      margin: 18px auto;
+      width: 12em;
+      height: 2.5em;
+      border-radius: 80px;
+      display: contents;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      background-color: #7e351a;
+    }
+    .logoMaison {
+      width: 30px;
+      height: 21px;
+      object-fit: cover;
+    }
+    .logochien {
+      width: 41px;
+      height: 32px;
+      object-fit: cover;
+    }
+    .logochat {
+      width: 33px;
+      height: 23px;
+      object-fit: cover;
+    }
+  }

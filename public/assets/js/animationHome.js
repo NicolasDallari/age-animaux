@@ -14,17 +14,17 @@ const mediaQuery = window.matchMedia("(max-width: 480px)");
 function handleScreenChange(e) {
     if (e.matches) {
         TL1
-        .from(h1, 1, {y: 100, opacity: 0},'+=0.5' )
-        .from(h2, 1, {y: 100, opacity: 0},'-=0.5' )
-        .from(chienchat, 1, {x: 100, opacity: 0},'-=0.5' )
+        .from(h1, 0.5, {y: 20, opacity: 0},'+=0.5' )
+        .from(h2, 0.5, {y: 20, opacity: 0},'-=0.4' )
+        .from(chienchat, 0.5, {y: 20, opacity: 0},'-=0.3' )
         TL1.play();
        
     } else {
         TL1
-        .from(h1, 1, {x: -400, opacity: 0},'+=0.5' )
-        .from(h2, 1, {x: -400, opacity: 0},'-=0.4' )
-        .from(chat, 1, {x: -400, opacity: 0},'-=0.5' )
-        .from(chien, 1, {x: -400, opacity: 0},'-=0.5' )
+        .from(h1, 0.5, {x: -400, opacity: 0},'+=0.5' )
+        .from(h2, 0.5, {x: -400, opacity: 0},'-=0.4' )
+        .from(chat, 0.5, {x: -400, opacity: 0},'-=0.3' )
+        .from(chien, 0.5, {x: -400, opacity: 0},'-=0.2' )
         TL1.play();
     }
 }
