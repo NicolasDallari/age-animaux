@@ -20,7 +20,7 @@
     <a href="/chien">
         <img class="logochien" src="assets/images/home/logochien.png" alt="logo chien">
     </a>
-    <a href="">
+    <a href="/chat">
         <img class="logochat" src="assets/images/home/chat.webp" alt="logo chat">
     </a>
 </nav>

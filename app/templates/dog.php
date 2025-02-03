@@ -5,7 +5,7 @@
         <a class="navDog" href="/">accueil</a>
     </div>
     <div class="chien">
-        <a class="navDog" href="">chat</a>
+        <a class="navDog" href="/chat">chat</a>
     </div>
     <div class="chat">
         <a class="navDog" href="">chien</a>
