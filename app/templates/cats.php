@@ -14,21 +14,17 @@
 <main>
 <div class="containerCats">
     <h1>Calculer l'âge de mon chats</h1>
-    <form action="votre_url_de_traitement" method="GET">
+    <form id="myForm" action="votre_url_de_traitement" method="GET">
         <div class="selectAge">
             <label for="age-chat">Age réel :</label>
             <select name="age_chat" id="age-chat" required aria-required="true">
-                <option value="1an">1 an</option>
-                <option value="1an">2 an</option>
-                <option value="1an">3 an</option>
-                <option value="1an">4 an</option>
             </select>
         </div>
         <div class="button">
             <button type="submit">Valider</button>
         </div>
     </form>
-    <p class="resultat">Votre chat de 1an aurait 20 ans s'il etait un humain</p>
+    <p class="resultat"></p>
     <div class="containerSavaisTu">
         <h3>Le savais tu ?</h3>
         <p class="ageChat">Les âges du chat :<br></p>
@@ -39,7 +35,6 @@
             <li>Age pour stériliser une chatte : <br>Une chatte peut être stérilisée à n'importe quel âge mais il est préférable de procéder à cette opération dès que l'animal a atteint sa maturité sexuelle et avant ses premières chaleurs. Cet âge se situe aux alentours de 6 mois pour les femelles.</li>
             <li>Espérance de vie du chat :<br>un chat peut vivre de 15 à 20 ans.</li>
         </ol>
-
     </div>
 </div>
 <div class="containerQuestion">
@@ -48,3 +43,5 @@
 </div>
 </main>
 <script src="assets/js/animationCats.js"></script>
+<script src="assets/js/data/cats.js"></script>
+<script src="assets/js/selectCats.js"></script>
