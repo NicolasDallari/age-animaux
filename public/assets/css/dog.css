@@ -40,6 +40,7 @@ nav {
   padding-top: 5%;
 }
 h1 {
+  font-weight: lighter;
   font-size: 3em;
 }
 h1,
@@ -217,6 +218,7 @@ ol,
     width: 100%;
     height: auto;
     margin-left: 0%;
+    margin-top: 0px;
     padding-top: 0%;
   }
   h1 {

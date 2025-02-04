@@ -51,6 +51,7 @@ main {
   max-width: 700px;
 }
 h1 {
+  font-weight: lighter;
   font-size: 3em;
   padding-right: 20%;
 }
@@ -88,7 +89,7 @@ button {
 }
 .button {
   margin-left: 35%;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .resultat {
   color: red;
@@ -170,6 +171,7 @@ h2 {
   }
   main {
     flex-direction: column;
+    max-width: 1000px;
   }
   h1 {
     padding-right: 0%;
@@ -224,6 +226,9 @@ h2 {
   }
   main {
     height: 100vh;
+  }
+  .containerCats {
+    margin-top: 0px;
   }
   .resultat {
     font-size: 4vw;
