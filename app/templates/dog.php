@@ -37,7 +37,7 @@
             </div>
         </form>
         <p class="resultat">Votre chien de 1an aurait 20 ans s'il etait un humain</p>
-        <p class="note"><strong>Note :</strong> Petit chien = chien de moins de 15kg, Chien moyen = chien entre 15 et 45 kg ,<br>Gros chien = chien de plus de 45kg</p>
+        <p class="note"><strong>Note :</strong> Petit chien = chien de moins de 15kg,<br> Chien moyen = chien entre 15 et 45 kg ,<br>Gros chien = chien de plus de 45kg</p>
         <div class="containerQuestion">
             <h3>Le savais tu ?</h3>
             <p class="question">Comment appelle-t-on ?</p>
