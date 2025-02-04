@@ -3,7 +3,9 @@ const app = {
     init: function() {
       
       console.log('app init - si besoin de JS ;)');
-      initApp()
+      initApp();
+      populateSelectOptions();
+      selectDataForm() 
     },
   };
   function initApp() {
