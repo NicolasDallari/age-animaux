@@ -1,4 +1,4 @@
-<link rel="canonical" href="https://www.age-animal.dallarinicolas.fr/">
+<!-- <link rel="canonical" href="https://www.age-animaux.dallarinicolas.fr/"> -->
 <title>Calculez l'âge de votre animal préféré</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="assets/css/home.css">
