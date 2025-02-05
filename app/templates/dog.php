@@ -14,29 +14,22 @@
 <main>
     <div class="containerDog">
         <h1>Calculer l'âge de mon chien </h1>
-        <form action="votre_url_de_traitement" method="GET">
+        <form id="myForm" action="votre_url_de_traitement" method="GET">
             <div class="selectType">
                 <label for="type-chien">Type de chien :</label>
                 <select name="type_chien" id="type-chien" required aria-required="true">
-                    <option value="petit chien">Petit chien</option>
-                    <option value="petit chien">Moyen chien</option>
-                    <option value="petit chien">Gros chien</option>
                 </select><br>
             </div>
             <div class="selectAge">
                 <label for="age-chien">Age réel :</label>
                 <select name="age_chien" id="age-chien" required aria-required="true">
-                    <option value="1an">1 an</option>
-                    <option value="1an">2 an</option>
-                    <option value="1an">3 an</option>
-                    <option value="1an">4 an</option>
                 </select>
             </div>
             <div class="button">
                 <button type="submit">Valider</button>
             </div>
         </form>
-        <p class="resultat">Votre chien de 1an aurait 20 ans s'il etait un humain</p>
+        <p class="resultat"></p>
         <p class="note"><strong>Note :</strong> Petit chien = chien de moins de 15kg,<br> Chien moyen = chien entre 15 et 45 kg ,<br>Gros chien = chien de plus de 45kg</p>
         <div class="containerQuestion">
             <h3>Le savais tu ?</h3>

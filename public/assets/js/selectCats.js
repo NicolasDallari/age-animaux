@@ -1,10 +1,10 @@
 // Fonction pour remplir les options du <select>
-function populateSelectOptions() {
+function ageSelectOptions() {
   // Sélectionner l'élément <select>
   const selectElement = document.getElementById("age-chat");
 
   // Parcourir le tableau de données et créer des éléments <option>
-  ageData.forEach(function (data) {
+  ageDataCats.forEach(function (data) {
     const optionElement = document.createElement("option");
     optionElement.value = data.value;
     optionElement.textContent = data.text;
@@ -12,7 +12,7 @@ function populateSelectOptions() {
   });
 }
 
-function selectDataForm() {
+function selectDataFormCats() {
   const form = document.getElementById("myForm");
 
   form.addEventListener("submit", function (event) {
@@ -20,9 +20,9 @@ function selectDataForm() {
 
     // Récupérer la valeur sélectionnée
     const ageChat = document.getElementById("age-chat").value;
-
+    
     // Trouver l'objet correspondant dans le tableau de données
-    const selectedAgeData = ageData.find((data) => data.value === ageChat);
+    const selectedAgeData = ageDataCats.find((data) => data.value === ageChat);
 
     // Récupérer le texte correspondant
     const ageHumain = selectedAgeData ? selectedAgeData.text : "Âge non trouvé";
