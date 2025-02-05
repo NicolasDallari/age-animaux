@@ -43,5 +43,3 @@
 </div>
 </main>
 <script src="assets/js/animationCats.js"></script>
-<script src="assets/js/data/cats.js"></script>
-<script src="assets/js/selectCats.js"></script>

@@ -5,3 +5,5 @@
 3eme jour : 4h page d'accueil + 2h page chien
 4eme jour : 5h page chien 
 5eme jour : 5h page chat 
+6eme jour : 4h page chat , chien responsive  
+7eme jour : 6h page chien logique form 
