@@ -94,10 +94,6 @@ button {
   padding-left: 80px;
   margin-top: 20px;
 }
-.note {
-  margin-top: 20px;
-  padding-left: 45px;
-}
 .containerQuestion {
   width: 60%;
   height: 240px;
@@ -248,11 +244,6 @@ ol,
   .resultat {
     font-size: 4vw;
     padding-left: 10%;
-  }
-  .note {
-    font-size: 2vh;
-    padding-left: 10%;
-    padding-right: 10%;
   }
   .containerQuestion {
     width: 80%;
