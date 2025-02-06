@@ -1,7 +1,11 @@
-# Activer le moteur de réécriture
 RewriteEngine On
 
-# Si la requête ne correspond pas à un fichier ou un dossier existant, rediriger vers index.php
+# Désactive l'affichage des fichiers et dossiers
+Options -Indexes
+
+# Vérifie si le fichier ou le dossier existe
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
+
+# Redirige toutes les requêtes vers index.php
+RewriteRule ^ index.php [QSA,L]
