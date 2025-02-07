@@ -1,3 +1,4 @@
+<link rel="canonical" href="https://www.age-animaux.dallarinicolas.fr/chat">
 <title>Calculez l'âge du chat</title>
 <link rel="stylesheet" href="assets/css/cats.css">
 <nav class="cats">

@@ -1,3 +1,4 @@
+<link rel="canonical" href="https://www.age-animaux.dallarinicolas.fr/chien">
 <title>Calculez l'âge du chien</title>
 <link rel="stylesheet" href="assets/css/dog.css">
 <nav class="dog">
