@@ -1,6 +1,6 @@
-### Connaitre l'age de ton animale préfére 🐶
+### Connaître l'âge de ton animal préféré 🐶
 
-Voici un outil pour vous permettre de calculer l'âge de votre chien ou de votre chat! 
+Voici un outil qui vous permet de calculer l'âge de votre chien ou de votre chat !
 
 ## Technologies utilisées🛠 
 Cet outil a été développé en utilisant les technologies suivantes :
