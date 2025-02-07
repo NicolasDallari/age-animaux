@@ -12,9 +12,6 @@
     <meta name="author" content="Dallari Nicolas">
     <meta name="robots" content="index, follow">
     
-    <!-- Canonical pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://www.age-animaux.dallarinicolas.fr/">
-    
     <!-- Préchargement des polices pour optimiser le rendu -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
